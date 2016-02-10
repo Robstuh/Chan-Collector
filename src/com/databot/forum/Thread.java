@@ -32,6 +32,7 @@ public class Thread {
 	}
 
 	public void setThreadName(String name) {
+		name = name.replaceAll("-", " ");
 		this.name = name;
 	}
 
