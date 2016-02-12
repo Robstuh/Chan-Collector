@@ -9,11 +9,6 @@ import java.util.Vector;
 
 public class ThreadCollection {
 
-	// TODO make threads collectable on specific pages
-	// TODO
-	// TODO
-	// TODO
-
 	public static Vector<Thread> threads = new Vector<Thread>();
 
 	public static int getThreadSlot(int id) {

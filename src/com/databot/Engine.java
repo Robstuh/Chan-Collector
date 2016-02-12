@@ -10,10 +10,10 @@ public class Engine {
 
 		Terminal term = Terminal.getInstance();
 		term.open(0, 0, 700, 700);
-		Terminal.getInstance().showPrintLine("Collecting threads from /g/");
+		Terminal.getInstance().showPrintLine("Collecting threads from /s/");
 		for(int i = 2; i < 5; i++){
 			Terminal.getInstance().showPrintLine("Collecting page " + i + "...");
-			ThreadCollection.collectThreads("g", i);
+			ThreadCollection.collectThreads("s", i);
 			
 		}
 		Terminal.getInstance().showPrintLine(
