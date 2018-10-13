@@ -1,2 +1,1 @@
-# Chan-Collector
-Collects, parses and stores data and files from 4chan.
+Collects, parses and stores images from popular social media websites.
